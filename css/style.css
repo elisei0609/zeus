@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900');
+@import url('https://fonts.googleapis.com/css?family=Amiri:400,400i');
+body,html {
+   min-height: 100%;
+}
+body {
+   max-width: 2000px;
+   color: #fff;
+   background-color: #1a1c0f;
+}
+html {
+   overflow-x: hidden;
+}
+* {
+   transition: all .1s ease-in;
+}
+h1,h2,h3 {
+   text-transform: uppercase;
+}
+h3 {
+   font-family: 'Cinzel Decorative';
+   font-weight: 400;
+   
+}
+h2 {
+   font-family: 'Cinzel Decorative',cursive;
+   font-weight: 900;
+   font-size: 3.75rem;
+}
+a {
+   text-decoration: none;
+}
+p {
+   font-family: 'Amiri', serif;
+   font-weight: 400;
+   font-size: 1.2vw;
+}
+.slanted {
+   font-family: 'Amiri', serif;
+   font-weight: 400;
+   font-style: italic;
+   color: #cdb378;
+   font-size: 1.2vw;
+   
+}
+
+
+.center {
+   margin: 0 auto;
+   text-align: center;
+   height: 100%;
+   max-width: 1600px;
+   width: 100%;
+   position: relative;
+}
+.introduction {
+   background-image: url(../img/background-1.jpg);
+   background-size: cover;
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+#main {
+   background-image: url(../img/main-wrapper.jpg);
+   background-size: cover;
+   height: 260.30vw;
+   position: relative;
+   background-size: contain;
+   w
+}
+#main h3 {
+   font-size: 3.6vw;
+}
+.alcoholik {
+   background-image: url(../img/alcoholik.jpg);
+   height: 44.2vw;
+   background-repeat: no-repeat;
+   width: 100%;
+   background-size: cover;
+   text-align: -webkit-right;
+
+}
+.introduction-logo {
+   margin-top: 11.32vh;
+   margin-bottom: 13.61vh;
+   width: 7.65vw;
+   height: auto;
+}
+.title-black {
+   margin-bottom: 1.5625vh;
+   position: relative;
+   font-size: 3vw;
+   width: 11.56vw;
+   margin: 0 auto;
+   margin-bottom: 2.34vh;
+}
+/* .title-black:before {
+   content: ' ';
+   background-color: rgb(205, 179, 120);
+   width: 242px;
+   height: 4px;
+   position: absolute;
+} */
+.arrow-before   {
+   content: ' ';
+   background-color: rgb(205, 179, 120);
+   width: 12.1vw;
+   height: 0.2vw;
+   position: absolute;
+   top: 50%;
+   right: 3.8em;
+}
+.arrow-after   {
+   content: ' ';
+   background-color: rgb(205, 179, 120);
+   width: 12.1vw;
+   height: 0.2vw;
+   position: absolute;
+   top: 50%;
+   left: 3.8em;
+}
+.title-regular {
+   font-size: 1.8vw;
+   margin-bottom: 3.25vh;
+}
+
+.anchor {
+   font-family: 'Amiri', serif;
+   font-weight: 400;
+   font-style: italic;
+   position: absolute;
+   bottom: 5.9375vh;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+   display: inline-block;
+   width: 12%;
+}
+.arrow {
+   display: block;
+   position: relative;
+   margin-top: 0.9375vh;
+}
+.anchor:before {
+   content: '';
+   height: 0.75vw;
+   width: 0.1vw;
+   top: 1.4vw;
+   left: 3.9vw;
+   position: relative;
+   background-color: #cdb378;
+   display: inline-block;
+   transform: rotate(-45deg);
+}
+.anchor:after {
+   content: '';
+   height: 0.75vw;
+   width: 0.1vw;
+   top: 1.4vw;
+   left: -4.5vw;
+   position: relative;
+   background-color: #cdb378;
+   display: inline-block;
+   transform: rotate(-135deg);
+}
+.wrapper {
+   margin: 0 auto;
+   max-width: 1600px;
+   width: 100%;
+   padding: 0 0.75vw;
+}
+.joy-title {
+   margin-bottom: 0.75vw;
+   margin-top: 5.4vw;
+}
+.joy-text {
+   margin-bottom: 6.75vw;
+   color: #cdb378;
+}
+.joy-photo {
+   position: absolute;
+   right: 0;
+   top: -7vw;
+   width: 29.45vw;
+}
+
+.original-background {
+   background-image: url(../img/Box.jpg);
+   width: 86.4vw;
+   height: 24.95vw;
+   position: absolute;
+   left: 0;
+   top: 0;
+   background-repeat: no-repeat;
+   z-index: -1;
+   background-position: center;
+   background-size: contain;
+
+}
+.original {
+   position: relative;
+   z-index: 2;
+   height: 24.85vw;
+}
+.original-title {
+   color: #cdb378;
+   width: 47.8vw;
+   padding-top: 5vw;
+   padding-bottom: 2vw;
+}
+.original-text {
+   color: #b4ba98;
+   width: 47.8vw;
+   line-height: 2;
+   margin-bottom: 4vw;
+}
+.original-beer {
+   position: absolute;
+   top: -73%;
+   left: 65%;
+   width: 11.6vw;
+   height: 45.85vw;
+}
+.btn {
+   text-decoration: none;
+   color: #fff;
+   font-size: 0.8vw;
+   text-transform: uppercase;
+   font-family: 'Amiri', serif;
+   font-weight: 400;
+   padding: 0.6vw 3vw;
+   background-color: #272a18;
+   border: 0.1vw solid #404429;
+}
+.alcoholik-title {
+   color: #1a1c0f;
+   padding-top: 16vw;
+   text-align: initial;
+   width: 36vw;
+   padding-right: 0.75vw;
+}
+.quality-title {
+   color: #cdb378;
+   width: 34.5vw;
+   margin-bottom: 4vw;
+   padding-top: 7.5vw;
+}
+.quality-text {
+   color: #b4ba98;
+   width: 34.5vw;
+   margin-bottom: 3.5vw;
+   line-height: 2;
+}
+.quality {
+   position: relative;
+}
+.quality-image {
+   width: 49vw;
+   position: absolute;
+   right: 0;
+   top: -7.5vw;
+}
+.quality .wrapper {
+   height: 46.9vw;
+}
+.journey-title {
+   color: #cdb378;
+   padding-top: 7.25vw;
+   margin-bottom: 1.25vw;
+}
+.journey {
+   margin: 0 auto;
+   text-align: center;
+   height: 100%;
+   max-width: 1600px;
+   width: 100%;
+}
+.journey-text {
+   color: #b4ba98;
+   margin-bottom: 3.5vw;
+}
+.journey-btn {
+   background-color: #1a190e;
+}
