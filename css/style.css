@@ -238,12 +238,14 @@ p {
    text-align: initial;
    width: 36vw;
    padding-right: 0.75vw;
+   font-size: 3vw;
 }
 .quality-title {
    color: #cdb378;
    width: 34.5vw;
    margin-bottom: 4vw;
    padding-top: 7.5vw;
+   font-size: 3vw;
 }
 .quality-text {
    color: #b4ba98;
@@ -274,6 +276,7 @@ p {
    height: 100%;
    max-width: 1600px;
    width: 100%;
+   font-size: 3.6vw;
 }
 .journey-text {
    color: #b4ba98;
